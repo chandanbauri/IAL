@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:century gothic ;
+}
+.contact
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    background-image: url(C:/Users/anind/OneDrive/Documents/Learning/IAL/images/ContactBackground.jpg);
+    background-size: cover;
+}
+.contact .content
+{
+    max-width: 800px;
+    text-align: center;
+}
+.contact h1{
+    font-size: 40px;
+    font-weight: 1000;
+    color: #fff;
+    float: left;
+}
+.contact p{
+    font-weight: 500;
+    color: #fff;
+}
+.contact .container{
+    display: flex;
+    width: 100%;
+    justify-content: left;
+    align-items: left;
+    margin-top: 30px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box{
+    position: absolute;
+    padding: 20px 0;
+    display: inline;
+}
+.container .contactinfo .box .icon{
+    min-width: 60px;
+    height: 60px;
+    color: #fff;
+    justify-content: left;
+    align-items: left;
+    border-radius: 50px;
+    font-size: 22px;
+    display: inline;
+}
+.container .contactinfo .box .text h2
+{
+    font-weight: 800;
+    color: #00bcd4;
+}
